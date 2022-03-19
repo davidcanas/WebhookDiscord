@@ -1,6 +1,15 @@
 # WebhookDiscord
-Um proxy para enviar webhooks do discord
-Util para usar no roblox.
+Um proxy para enviar webhooks do discord facilmente! 
+
+Apenas precisa de fazer um request `POST` para a url `https://proxy.webhookdiscord.tk/webhook/enviar`
+Com os seguintes dados:
+```json
+{
+"content": "Conteúdo", 
+"webhookID": "ID da webhook", 
+"webhookToken": "O Token Da Webhook"
+} 
+```
 
 Exemplo no roblox:
 ```lua
