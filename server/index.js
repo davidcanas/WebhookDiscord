@@ -26,3 +26,4 @@ app.post("/webhook/enviar", (req, res) => {
     })
 })
 app.listen(3000)
+//Em breve quando não tiver nada para fazer otimizarei o sistema, usando apenas requests na API do discord lol
