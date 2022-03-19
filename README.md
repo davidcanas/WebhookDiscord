@@ -7,6 +7,7 @@ Exemplo no roblox:
 -- Precisas de Permitir solicitações HTTP nas definições do jogo
 local http = game:GetService("HttpService")
 
+-- O content suporta embeds! 
 local Dados = {
 	["content"] = "Hmmm esta mensagem foi enviada a partir do roblox!",
 	["webhookID"] = "O ID da tua webhook ex: 932183812832813",
@@ -16,6 +17,6 @@ local Dados = {
 
 Dados = http:JSONEncode(Dados)
 
-http:PostAsync("https://robloxwebhook.repl.co/webhook/enviar", Dados)
+http:PostAsync("https://proxy.webhookdiscord.tk/webhook/enviar", Dados)
 ```
 
